@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    height: 1000px;
+}
+
+.header{
+    padding-top: 50px;
+    color: whitesmoke
+}
+
+.kutular{
+ max-width: 1200px;
+margin: auto;
+padding: 31px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.ekip:hover{
+    background: gainsboro;
+    border-radius: 12px;
+}
+.ekip{
+    margin: 20px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.ekip img{
+    width: 200px;
+    height: 200px;
+}
+
+.isim{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black
+}
+
+.meslek{
+    color:rgb(44, 57, 179);
+
+}
+
+.hak{
+    margin: 20px;
+    font-weight: lighter;
+    color: rgb(44, 57, 179);
+    font-style: italic;
+}
+
+.link{
+    margin: 14p;
+}
+
+.link a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.link a i {
+    color: rgb(43, 69, 141);
+}
+
+.link a:hover{
+    transform: scale(1.4);
+}
